@@ -3,14 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <style>
-        h1{
-            background-color: cornflowerblue;
-        }
+
     </style>
 </head>
 <body>
-    <h1 style="color:brown;">This is h1 tag.</h1>
+    <div class="main-container">
+    	<div class="container">
+            <div class="intro">
+                Assignment-02, Web Design & Development Course, Batch-03, Roll-62
+            </div>
+    		<header class="header">
+                <img src="images/banner.jpg" width="100%">      
+            </header>
+	    	<div class="h-menu">
+                <ul>
+                  <li><a class="active" href="index.html">Home</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/samsung" target="_blank">Samsung </a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/xiaomi" target="_blank">Xiaomi</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/realme" target="_blank">Realme</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/nokia" target="_blank">Nokia</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/huawei" target="_blank">Huawei</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/oppo" target="_blank">Oppo</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/vivo" target="_blank">Vivo</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/symphony" target="_blank">Symphony</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/walton" target="_blank">Walton</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/motorola" target="_blank">Motorola</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/apple" target="_blank">Apple</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/micromax" target="_blank">Micromax</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/maximus" target="_blank">Maximus</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/lg" target="_blank">LG</a></li>
+                  <li><a href="https://www.mobilemaya.com/brand/tecno" target="_blank">Tecno</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <div class="search-order">
+                    <form>
+                      <label for="searchOrder">Sort By :</label>
+                      <select name="searchOrder" id="searchOrder">
+                        <option value="">Default</option>
+                        <option value="Name (A-Z)">Name (A-Z)</option>
+                        <option value="Name (Z-A)">Name (Z-A)</option>
+                        <option value="Price (Low-High)">Price (Low-High)</option>
+                        <option value="Price (High-Low)">Price (High-Low)</option>
+                        <option value="Brand (A-Z)">Brand (A-Z)</option>
+                        <option value="Brand (Z-A)">Brand (Z-A)</option>
+                    </select>
+                    </form>
+                </div>
+                <div class="view-number">
+                    <form>
+                      <label for="viewNumber">View Per Page :</label>
+                      <select name="viewNumber" id="viewNumber">
+                        <option value="6">6</option>
+                        <option value="12">12</option>
+                        <option value="18">18</option>
+                        <option value="24">24</option>
+                        <option value="30">30</option>
+                    </select>
+                    </form>
+                </div>
+            </div>
+<!-- Left side bar -->
+	    	<aside class="l-side-bar">
+                <div class="title-upcome">Upcoming Phones</div>
+                
+                <div class="l-side-bar-content">
+                    <div class="upcoming-phones">
+                    <a href="https://consumer.huawei.com/bd/phones/nova-7i/" target="_blank">
+                        <div class="model-name">Huawei nova 7i</div>
+                        <div class="model-image-upcome"><img src="images/huawei nova 7i-29999tk.JPG" width="100%"></div>
+                        <div class="model-price">BDT 29,999.00 Tk</div>
+                    </a>
+                    </div>
+                    <div class="upcoming-phones">
+                        <a href="https://www.motorola.in/smartphones-moto-g60/p" target="_blank">
+                            <div class="model-name">Motorola Moto G60</div>
+                            <div class="model-image-upcome"><img src="images/motorola moto g60-28999tk.JPG" width="100%"></div>
+                            <div class="model-price">BDT 28,999.00 Tk</div>
+                        </a>
+                    </div>
+                    <div class="upcoming-phones">
+                        <a href="https://www.samsung.com/in/smartphones/galaxy-a/galaxy-a22-5g-mint-128gb-sm-a226blgjins/" target="_blank">
+                            <div class="model-name">Samsung Galaxy A22</div>
+                            <div class="model-image-upcome"><img src="images/samsung galaxy a22-21999.JPG" width="100%"></div>
+                            <div class="model-price">BDT 21,999.00 Tk</div>
+                        </a>
+                    </div>
+                    <div class="upcoming-phones">
+                        <a href="https://https://www.samsung.com/in/smartphones/galaxy-m/galaxy-m02s-blue-64gb-sm-m025fzbfins/" target="_blank">
+                            <div class="model-name">Samsung Galaxy M02S</div>
+                            <div class="model-image-upcome"><img src="images/sam gal m02s-11999tk.JPG" width="100%"></div>
+                            <div class="model-price">BDT 11,999.00 Tk</div>
+                        </a>
+                    </div>
+                    <div class="upcoming-phones">
+                        <a href="https://www.oppo.com/bd/smartphones/series-f/f19-pro/" target="_blank">
+                            <div class="model-name">Oppo F19 Pro</div>
+                            <div class="model-image-upcome"><img src="images/Oppo F19 Pro-26990.JPG" width="100%"></div>
+                            <div class="model-price">BDT 11,999.00 Tk</div>
+                        </a>
+                    </div>
+                    <div class="upcoming-phones">
+                        <a href="https://www.realme.com/bd/realme-narzo-30a" target="_blank">
+                            <div class="model-name">Realme Narzo 30A</div>
+                            <div class="model-image-upcome"><img src="images/Realme Narzo 30A-12990.JPG" width="100%"></div>
+                            <div class="model-price">BDT 11,999.00 Tk</div>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+<!-- Content -->
+	    	<div class="content">
+                <section class="section-class">
+                    <article class="all-model">
+                        <a href="https://www.nokia.com/phones/en_int/nokia-6-2" target="_blank">
+                            <div class="model-name">Nokia 6.2</div>
+                            <div class="model-image"><img src="images/1. Nokia 6.2-24490.JPG" width="100%"></div>
+                            <div class="model-description">Upgrade your view with Nokia 6.2. Watch videos in HDR with PureDisplay. Get creative with your photography thanks to the triple camera and advanced AI imaging. Plus, it all runs smoothly on Android 9 Pie software– so it just keeps getting better.</div>
+                            <div class="model-price">BDT 24,990.00 Tk</div>
+                        </a>
+                    </article>
+                    <section class="section-class">
+                    <article class="all-model">
+                        <a href="https://www.oppo.com/en/smartphones/series-a/a15s/" target="_blank">
+                            <div class="model-name">OPPO A15s</div>
+                            <div class="model-image"><img src="images/2. oppo a15s-12990tk.JPG" width="100%"></div>
+                            <div class="model-description">OPPO A15s's AI Triple Rear Camera can capture any photo you dream of. The 13MP main lens preserves clarity, the 2MP macro lens captures fine details up close, and the 2MP depth lens makes every portrait perfect.</div>
+                            <div class="model-price">BDT 12,990.00 Tk</div>
+                        </a>
+                    </article>
+                </section>
+                <section class="section-class">
+                    <article class="all-model">
+                        <a href="https://www.realme.com/bd/realme-8" target="_blank">
+                            <div class="model-name">Realme 8</div>
+                            <div class="model-image"><img src="images/3. realme 8-19990tk.JPG" width="100%"></div>
+                            <div class="model-description">The realme 8 introduces futuristic designs to mobile. The left side represents our material world, while the right side represents the mysterious digital world. Using a split design and splicing process, the device fuses unique visual manner. </div>
+                            <div class="model-price">BDT 19,990.00 Tk</div>
+                        </a>
+                    </article>
+                    <article class="all-model">
+                        <a href="https://www.vivo.com/bd/products/y20g" target="_blank">
+                            <div class="model-name">Vivo Y20G</div>
+                            <div class="model-image"><img src="images/4. Vivo Y20G-17990.JPG" width="100%"></div>
+                            <div class="model-description">The Vivo Y20G has 6.51-inch Halo FullView Display features an elongated aspect ratio of 20:9 and HD+ (1600×720) resolution. The view is bigger and more immersive than ever, and with the latest In-cell technology. </div>
+                            <div class="model-price">BDT 17,990.00 Tk</div>
+                        </a>
+                    </article>
+                </section>
+                <section class="section-class">
+                    <article class="all-model">
+                        <a href="https://www.mi.com/my/poco-m3-pro-5g/" target="_blank">
+                            <div class="model-name">Xiaomi Poco M3 Pro</div>
+                            <div class="model-image"><img src="images/5. Xiaomi Poco M3 Pro-23999.JPG" width="100%"></div>
+                            <div class="model-description">Xiaomi Poco M3 Pro has dual 5G SIM gives you 5G* that’s always on. It means being able to connect to two different 5G networks without physically swappin g out SIM cards, adapting to the network environment in the future.</div>
+                            <div class="model-price">BDT 23,999.00 Tk</div>
+                        </a>
+                    </article>
+                    <article class="all-model">
+                        <a href="https://waltonbd.com/primo-zx4" target="_blank">
+                            <div class="model-name">Walton Primo ZX4</div>
+                            <div class="model-image"><img src="images/6. Walton Primo ZX4-26999.JPG" width="100%"></div>
+                            <div class="model-description">Walton Primo ZX4 has dual 5G SIM gives you 5G* that’s always on. It means being able to connect to two different 5G networks without physically swappin g out SIM cards, adapting to the network environment in the future.</div>
+                            <div class="model-price">BDT 26,999.00 Tk</div>
+                        </a>
+                    </article>
+                </section>
+            </div>
+<!-- Right side bar -->
+	    	<aside class="r-side-bar">
+                <div class="title-upcome">Popular Phones</div>
+                    <div class="l-side-bar-content">
+                        <div class="popular-phones">
+                            <a href="https://www.vivo.com/bd/products/y20g" target="_blank">
+                                <div class="model-name">Vivo Y20G</div>
+                                <div class="model-image-upcome"><img src="images/4. Vivo Y20G-17990.JPG" width="100%"></div>
+                                <div class="model-price">BDT 17,990.00 Tk</div>
+                            </a>
+                        </div>
+                        <div class="popular-phones">
+                            <a href="https://waltonbd.com/primo-zx4" target="_blank">
+                                <div class="model-name">Walton Primo ZX4</div>
+                                <div class="model-image-upcome"><img src="images/6. Walton Primo ZX4-26999.JPG" width="100%"></div>
+                                <div class="model-price">BDT 26,999.00 Tk</div>
+                            </a>
+                        </div>
+                        <div class="popular-phones">
+                            <a href="https://www.realme.com/bd/realme-8" target="_blank">
+                                <div class="model-name">Realme 8</div>
+                                <div class="model-image-upcome"><img src="images/3. realme 8-19990tk.JPG" width="100%"></div>
+                                <div class="model-price">BDT 19,990.00 Tk</div>
+                            </a>
+                        </div>
+                         <div class="popular-phones">
+                            <a href="https://www.mi.com/my/poco-m3-pro-5g/" target="_blank">
+                                <div class="model-name">Xiaomi Poco M3 Pro</div>
+                                <div class="model-image-upcome"><img src="images/5. Xiaomi Poco M3 Pro-23999.JPG" width="100%"></div>
+                                <div class="model-price">BDT 13,999.00 Tk</div>
+                            </a>
+                        </div>
+                    </div>
+            </aside>
+	    	<div class="footer">
+                <div class="contact">
+                    <div class="contact-text">
+                        Contact Us <br/>
+                        <hr/>
+                        Serve Human Foundation, Bangladesh<br/>
+                        Web Design and Development Course<br/>
+                        Batch-03<br/>
+                        Roll-62.
+                    </div>
+                </div>
+                <div class="video-content">
+                    <marquee behavior="alternate" onmouseover="this.stop();" onmouseout="this.start();">
+                        
+                        <iframe width="264" height="190" src="https://www.youtube.com/embed/AxLr2dLYV4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <iframe width="262" height="190" src="https://www.youtube.com/embed/XaHHgM_zq6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+
+                        <iframe width="262" height="190" src="https://www.youtube.com/embed/ubCAga445zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <iframe width="264" height="190" src="https://www.youtube.com/embed/cYx-K57TsUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <iframe width="264" height="190" src="https://www.youtube.com/embed/vbeWdQ9DAGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </marquee>
+                </div>
+            </div>
+    	</div>
+    </div>
 </body>
 </html>
